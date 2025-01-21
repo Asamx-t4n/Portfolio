@@ -44,8 +44,8 @@ img {
 .image-container {
 	background: url(my\ img2.jpg) no-repeat;
 	background-size: 100%;
-	width: 32vw;
-	height: 32vw;
+	width: 13rem;
+	height: 20rem;
 	border-radius: 50%;
 	border-top: 1rem solid rgb(26, 6, 6);
 	border-bottom: 1rem solid white;
