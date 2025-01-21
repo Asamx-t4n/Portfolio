@@ -35,60 +35,58 @@
 		class="bg-black"
 	>
 		<!--navbar section-->
-		<nav class="navbar navbar-expand-lg navbar-light text-light py-3">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark text-light py-3 sticky-top">
 			<div class="container">
-				<a class="navbar-brand" href="#">
-					<img src="samrat.png" alt="logo" class="navbar-logo" />
+			  <a class="navbar-brand" href="#">
+				<img src="samrat.png" alt="logo" class="navbar-logo" style="width: 40px; height: 40px;">
+			  </a>
+			  <button
+				class="navbar-toggler border-0 shadow-none"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			  >
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div
+				class="collapse navbar-collapse text-center"
+				id="navbarSupportedContent"
+			  >
+				<ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+				  <li class="nav-item">
+					<a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#about-section">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#service-section">Service</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#portfolio-section">Portfolio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#contact-section">Contact</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#skill-section">Skill</a>
+				  </li>
+				</ul>
+				<a
+				  class="btn btn-success mybtn rounded-0 text-uppercase"
+				  href="https://backspacetechnologies.com/"
+				  target="_blank"
+				  role="button"
+				>
+				  Join Us
 				</a>
-				<button
-					class="navbar-toggler border-0 shadow-none"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse text-center"
-					id="navbarSupportedContent"
-				>
-					<ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
-						<li class="nav-item">
-							<a class="nav-link active text-light" aria-current="page" href="#"
-								>Home</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-light" href="#about-section">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-light" href="#service-section">service</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-light" href="#portfolio-section"
-								>portfolio</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-light" href="#contact-section">contact</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-light" href="#skill-section">skill</a>
-						</li>
-					</ul>
-					<a
-						class="btn bg-green mybtn rounded-0 text-uppercase"
-						href="https://backspacetechnologies.com/"
-						target="_blank"
-						role="button"
-						>join us</a
-					>
-				</div>
+			  </div>
 			</div>
-		</nav>
+		  </nav>
+		  
 
 		<!-- all section start from here -->
 		<main>
@@ -125,7 +123,7 @@
 				<div class="container mb-5">
 					<div class="row align-items-center">
 						<div class="col-lg-6">
-							<div class="about-me mt-5">
+							<div class="about-me mt-5 mb-5">
 								<!-- <img src="my img2.jpg " class="about me" alt="about me"> -->
 							</div>
 						</div>
@@ -145,15 +143,20 @@
 								enhancing my expertise in web development and real-world project
 								implementation. I am particularly interested in e-commerce
 								solutions, as reflected in my project, E-vehicle, an e-commerce
-								platform for selling items. Some highlights of my journey
-								include: Entrance Topper at Kankai Polytechnic Institute.
-								Proficiency in responsive design, JavaScript arrays, and
-								building user-friendly interfaces. A strong inclination towards
-								professional color schemes and user-centric designs. Beyond
-								coding, I am intrigued by IoT challenges in Nepal and strive to
-								explore how technology can bring transformative changes. My
-								ultimate goal is to create innovative solutions that leave a
-								lasting impact.
+								platform for selling items.
+								<ul class=" text-light">Some highlights of my journey
+									include:
+									<li>Entrance Topper at Kankai Polytechnic Institute.</li>
+                                    <li>Proficiency in responsive design</li>
+									<li>JavaScript arrays, and
+										building user-friendly interfaces.</li>
+								</ul>
+								<p class="text-light">A strong inclination towards
+									professional color schemes and user-centric designs. Beyond
+									coding, I am intrigued by IoT challenges in Nepal and strive to
+									explore how technology can bring transformative changes. My
+									ultimate goal is to create innovative solutions that leave a
+									lasting impact.</p>
 							</p>
 							<h5 class="text-light just">Contact:</h5>
 							<p class="text-light just">
@@ -408,57 +411,43 @@
 			</section>
 		</main>
 		<!--fotter start here-->
-		<fotter class="mt-5">
-			<div class="container" style="background-color: dimgrey">
-				<div class="line my-3"></div>
-				<div class="row">
-					<div class="col-lg-12 d-flex">
-						<div class="photo">
-							<img src="samrat.png" class="fotter-img img-f m-2" />
-							<a
-								href="https://www.youtube.com/@SamX-t4n"
-								class="btn bg-danger mt-sm-3"
-								>Subcribe
-							</a>
-						</div>
-
-						<!-- <div>
-							<blockquote class="block-quote ms-5 p-4">
-								<p class="text-light">
-									keep going....<br />
-									dificult road can lead To beautiful destination.
-								</p>
-								<footer class="blockquote-fotter txt-green">
-									<h5 class="ms-auto">-- Ziglar</h5>
-								</footer>
-							</blockquote>
-						</div> -->
-						<div
-							class="text-light text-center ms-5 ps-5 my-3 mx-md-5 p-f d-md-inline"
-						>
-							<h5>2025 All Rights Reserved | Designed by Samrat Bhattarai</h5>
-						</div>
-
-						<div class="ms-auto">
-							<a href=""><i class="fa-brands fa-facebook fs-3 m-2"></i></a>
-							<a href=""
-								><i class="fa-brands fa-square-instagram fs-3 m-2"></i
-							></a>
-							<a href=""
-								><i class="fa-brands fa-square-youtube fs-3 m-2"></i
-							></a>
-							<a
-								class="nav-link active text-light btn"
-								aria-current="page"
-								href="#"
-							>
-								<i class="fa-solid fa-house"></i>Home</a
-							>
-						</div>
-					</div>
+		<footer class="mt-5">
+			<div class="container bg-dark text-light py-4">
+			  <div class="line my-3 border-top border-light"></div>
+			  <div class="row align-items-center">
+				<!-- Photo and Subscribe Button -->
+				<div class="col-md-4 text-center mb-3 mb-md-0">
+				  <img src="samrat.png" class="footer-img img-fluid rounded-circle mb-2" alt="Samrat Bhattarai" style="max-width: 120px;">
+				  <br>
+				  <a href="https://www.youtube.com/@SamX-t4n" class="btn btn-danger">Subscribe</a>
 				</div>
+		  
+				<!-- Footer Text -->
+				<div class="col-md-4 text-center">
+				  <h5 class="mb-0">2025 All Rights Reserved</h5>
+				  <p class="mb-0">Designed by Samrat Bhattarai</p>
+				</div>
+		  
+				<!-- Social Media Links -->
+				<div class="col-md-4 text-center">
+				  <a href="#" class="text-light mx-2">
+					<i class="fa-brands fa-facebook fs-3"></i>
+				  </a>
+				  <a href="#" class="text-light mx-2">
+					<i class="fa-brands fa-square-instagram fs-3"></i>
+				  </a>
+				  <a href="#" class="text-light mx-2">
+					<i class="fa-brands fa-square-youtube fs-3"></i>
+				  </a>
+				  <br>
+				  <a href="#" class="btn btn-outline-light mt-2">
+					<i class="fa-solid fa-house"></i> Home
+				  </a>
+				</div>
+			  </div>
 			</div>
-		</fotter>
+		  </footer>
+		  
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
