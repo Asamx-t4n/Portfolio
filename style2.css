@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	font-family: "Poppins", serif;
+	/* border: 0.1rem solid white; */
+}
+:root {
+	--green-clr: #dffe02;
+	--gray-clr: #898989;
+	--dark-blue-clr: #171c22;
+	--fav-color-clr: #121212;
+	--fav-color2-clr: #533946;
+}
+.bg-green {
+	background: var(--green-clr);
+}
+.txt-green {
+	color: var(--green-clr);
+}
+.txt.gray {
+	color: var(--gray-clr);
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar-logo {
+	width: 8.5rem;
+	height: 6.5rem;
+}
+.mybtn {
+	border: 0.1rem solid var(--green-clr) !important;
+}
+.mybtn:hover {
+	background: transparent;
+	color: var(--green-clr) !important;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	width: 3rem;
+}
+.image-container {
+	background: url(my\ img2.jpg) no-repeat;
+	background-size: 100%;
+	width: 32vw;
+	height: 32vw;
+	border-radius: 50%;
+	border-top: 1rem solid rgb(26, 6, 6);
+	border-bottom: 1rem solid white;
+	box-shadow: 0 0 3rem white, inset 0 0 2rem wheat, 0 0 2rem var(--green-clr),
+		inset 0 0 2rem var(--green-clr);
+	margin: auto;
+}
+.hero-section {
+	min-height: 85vh;
+	background-color: var(--fav-color-clr);
+}
+/* .sam-x
+{
+    min-height: 85vh;
+    background-color: var(--fav-color-clr); 
+} */
+.h1 {
+	font-size: 4rem;
+	font-family: "Poppins", serif;
+}
+.main-txt {
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+}
+/* .about-me  
+{
+    background: url(my\ img2.jpg)no-repeat;
+    background-size:100% ;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 3rem;
+ }  */
+.background-fav {
+	background-color: var(--fav-color-clr);
+}
+.background2-fav {
+	background-color: var(--fav-color2-clr);
+}
+
+.just {
+	text-align: justify;
+}
+.about-me {
+	background: url(my\ img3.jpg) no-repeat;
+	background-size: cover;
+	width: 10rem;
+	height: 18rem;
+	border-radius: 50%;
+	margin: auto;
+	border-bottom: 1rem solid rgb(4, 81, 12);
+	box-shadow: 0 -23px 16px rgba(113, 54, 54, 0.7);
+}
+.card {
+	width: 20rem;
+	height: 20rem;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+	background: var(--fav-color-clr);
+}
+.glow {
+	box-shadow: 0 -5px 20px rgb(101, 209, 101);
+}
+.card-img {
+	max-width: 20rem;
+	max-height: 10rem;
+}
+.youtube-btn:hover {
+	background-color: red;
+}
+.fotter-img {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 40%;
+	border-color: red;
+}
+.p-f {
+	margin-right: 3rem;
+}
+.footer-bg {
+	background-color: #2c3539;
+}
